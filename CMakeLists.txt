@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.27)
-project(chatApp C)
+cmake_minimum_required(VERSION 3.7)
+project(chatAppC C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(chatApp client.c
+add_executable(chatAppC client.c
         server.c)
